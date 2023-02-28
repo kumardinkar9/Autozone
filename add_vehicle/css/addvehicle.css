@@ -1,0 +1,53 @@
+.custom-form {
+    max-width: 100%;
+}
+
+#vehicle-wrapper {
+    max-width: 100%;
+    display: flex;
+}
+
+.vehicle-field {
+    flex-basis: 25%;
+    flex-grow: 0;
+    margin-right: 10px;
+}
+
+.input-group-addon {
+    display: none !important;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group .select-wrapper {
+    display: inline-block !important;
+}
+
+.vehicle-loader {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+
+}
+
+.vehicle-loader.glyphicon {
+    display: none;
+}
+
+.vehicle-loader.glyphicon {
+    color: #777777;
+    opacity: 0.5;
+    transition: 150ms color, 150ms opacity;
+}
+
+.vehicle-loader.glyphicon.glyphicon-spin {
+    color: #337ab7;
+    opacity: 1;
+}
+
+.my_top_message {
+    font-weight: bold;
+}

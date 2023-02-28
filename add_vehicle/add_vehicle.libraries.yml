@@ -1,0 +1,9 @@
+addvehicle:
+  css:
+    theme:
+      css/addvehicle.css: {}
+  js:
+    js/addvehicle.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

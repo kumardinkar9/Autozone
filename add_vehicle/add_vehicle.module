@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains add_vehicle.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function add_vehicle_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the add_vehicle module.
+    case 'help.page.add_vehicle':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add your vehicle to get an exact fit of its parts.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function add_vehicle_theme() {
+  return [
+    'add_vehicle' => [
+      'render element' => 'form',
+    ],
+  ];
+}

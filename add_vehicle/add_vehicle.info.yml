@@ -1,0 +1,5 @@
+name: 'add_vehicle'
+type: module
+description: 'Add your vehicle to get an exact fit of its parts.'
+package: 'Custom'
+core_version_requirement: ^8.8.0 || ^9
